@@ -1,0 +1,24 @@
+name: api_ninjas_explorer
+description: "Flutter-приложение с сетью на Dio и API Ninjas."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+  get_it: ^9.3.0
+  pretty_dio_logger: ^1.4.0
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
